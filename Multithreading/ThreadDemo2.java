@@ -6,6 +6,7 @@ class MytThrea extends Thread
 		for (int i = 1; i <= 10; i++){
 			System.out.println("My number...."+i);
 			try {
+				   // here it's mean the output come after one second..
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
@@ -14,7 +15,9 @@ class MytThrea extends Thread
 	}
 }
 class ThreadDemo2
-{	public static void main(String[] args) //main thread
+{	
+   //main thread
+	public static void main(String[] args) 
 	{	MytThrea t1 = new MytThrea();
 		t1.start();	// user thread 
 	}
