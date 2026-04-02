@@ -10,6 +10,7 @@ public static void main (String [] arg) {
 	catch (NullPointerException e)
 	{
 		System.out.println(10/0);
+		       // if in try block has exception and try block also exception then nothing print in output 
 	}
 	System.out.println("rest of the application");
 	
