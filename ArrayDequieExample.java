@@ -9,13 +9,16 @@ public class ArrayDequieExample {
 		ArrayDeque<String> name=new ArrayDeque<>();
              
 		 name.add("ash");
-		 name.add("hjdk");
-		 name.add("jdfklsj");
+		 name.add("ashish");
+		 name.add("ashking");
 		 System.out.println(name);
+		
 		 name.remove();
 		 System.out.println(name);
-		 name.add("jdfkl");
+		
+		name.add("ranger");
 		 System.out.println(name);
+		
 	}
 
 }
